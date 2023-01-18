@@ -1,5 +1,5 @@
-<rdf:RDF xmlns="http://cui.unige.ch/isi/onto/skoo.owl#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:wn="http://www.w3.org/2006/03/wn/wn20/instance/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skoo="http://purl.org/net/skoo#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:dctype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dolceEd="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#" xmlns:dolceInf="http://www.loa-cnr.it/ontologies/InformationObjects.owl#" xmlns:dolceLite="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#" xml:base="http://cui.unige.ch/isi/onto/skoo.owl">
-<owl:Ontology rdf:about="http://purl.org/net/skoo">
+<rdf:RDF xmlns="http://cui.unige.ch/isi/onto/skoo.owl#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:ns="http://www.w3.org/2003/06/sw-vocab-status/ns#" xmlns:wn="http://www.w3.org/2006/03/wn/wn20/instance/" xmlns:owl="http://www.w3.org/2002/07/owl#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xsd="http://www.w3.org/2001/XMLSchema#" xmlns:dcam="http://purl.org/dc/dcam/" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#" xmlns:skoo="http://purl.org/onto/skoo#" xmlns:skos="http://www.w3.org/2004/02/skos/core#" xmlns:vann="http://purl.org/vocab/vann/" xmlns:dctype="http://purl.org/dc/dcmitype/" xmlns:dcterms="http://purl.org/dc/terms/" xmlns:dolceEd="http://www.loa-cnr.it/ontologies/ExtendedDnS.owl#" xmlns:dolceInf="http://www.loa-cnr.it/ontologies/InformationObjects.owl#" xmlns:dolceLite="http://www.loa-cnr.it/ontologies/DOLCE-Lite.owl#" xml:base="http://cui.unige.ch/isi/onto/skoo.owl">
+<owl:Ontology rdf:about="http://purl.org/onto/skoo">
 <owl:imports rdf:resource="http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl"/>
 <owl:imports rdf:resource="http://www.w3.org/2003/06/sw-vocab-status/ns"/>
 <dc:contributor>Giuseppe Cosenza</dc:contributor>
@@ -50,24 +50,24 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
       -->
-<!--  http://purl.org/net/skoo#about  -->
-<owl:ObjectProperty rdf:about="http://purl.org/net/skoo#about"/>
-<!--  http://purl.org/net/skoo#confirms  -->
-<owl:ObjectProperty rdf:about="http://purl.org/net/skoo#confirms"/>
-<!--  http://purl.org/net/skoo#expressedBy  -->
-<owl:ObjectProperty rdf:about="http://purl.org/net/skoo#expressedBy">
-<owl:inverseOf rdf:resource="http://purl.org/net/skoo#expresses"/>
+<!--  http://purl.org/onto/skoo#about  -->
+<owl:ObjectProperty rdf:about="http://purl.org/onto/skoo#about"/>
+<!--  http://purl.org/onto/skoo#confirms  -->
+<owl:ObjectProperty rdf:about="http://purl.org/onto/skoo#confirms"/>
+<!--  http://purl.org/onto/skoo#expressedBy  -->
+<owl:ObjectProperty rdf:about="http://purl.org/onto/skoo#expressedBy">
+<owl:inverseOf rdf:resource="http://purl.org/onto/skoo#expresses"/>
 </owl:ObjectProperty>
-<!--  http://purl.org/net/skoo#expresses  -->
-<owl:ObjectProperty rdf:about="http://purl.org/net/skoo#expresses"/>
-<!--  http://purl.org/net/skoo#generatedBy  -->
-<owl:ObjectProperty rdf:about="http://purl.org/net/skoo#generatedBy">
-<owl:inverseOf rdf:resource="http://purl.org/net/skoo#generates"/>
+<!--  http://purl.org/onto/skoo#expresses  -->
+<owl:ObjectProperty rdf:about="http://purl.org/onto/skoo#expresses"/>
+<!--  http://purl.org/onto/skoo#generatedBy  -->
+<owl:ObjectProperty rdf:about="http://purl.org/onto/skoo#generatedBy">
+<owl:inverseOf rdf:resource="http://purl.org/onto/skoo#generates"/>
 </owl:ObjectProperty>
-<!--  http://purl.org/net/skoo#generates  -->
-<owl:ObjectProperty rdf:about="http://purl.org/net/skoo#generates"/>
-<!--  http://purl.org/net/skoo#proves  -->
-<owl:ObjectProperty rdf:about="http://purl.org/net/skoo#proves"/>
+<!--  http://purl.org/onto/skoo#generates  -->
+<owl:ObjectProperty rdf:about="http://purl.org/onto/skoo#generates"/>
+<!--  http://purl.org/onto/skoo#proves  -->
+<owl:ObjectProperty rdf:about="http://purl.org/onto/skoo#proves"/>
 <!--  http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#hasPart  -->
 <owl:ObjectProperty rdf:about="http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#hasPart"/>
 <!--  
@@ -77,225 +77,225 @@
     //
     ///////////////////////////////////////////////////////////////////////////////////////
       -->
-<!--  http://purl.org/net/skoo#Algorithm  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Algorithm">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Method"/>
+<!--  http://purl.org/onto/skoo#Algorithm  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Algorithm">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Method"/>
 <rdfs:subClassOf>
 <owl:Restriction>
 <owl:onProperty rdf:resource="http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#hasPart"/>
-<owl:someValuesFrom rdf:resource="http://purl.org/net/skoo#Statement"/>
+<owl:someValuesFrom rdf:resource="http://purl.org/onto/skoo#Statement"/>
 </owl:Restriction>
 </rdfs:subClassOf>
 <dcterms:description>A series of steps taken to complete a task. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Algorithm</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Alphabet  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Alphabet">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#LanguageDefinitionObject"/>
+<!--  http://purl.org/onto/skoo#Alphabet  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Alphabet">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#LanguageDefinitionObject"/>
 <dcterms:description>The set of character that includes letters used when writing in a language. (source: wiktionary)</dcterms:description>
 <rdfs:label xml:lang="en">Alphabet</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Analysis  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Analysis">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciActivity"/>
+<!--  http://purl.org/onto/skoo#Analysis  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Analysis">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciActivity"/>
 <dcterms:description xml:lang="en">Decomposition into components in order to study a complex thing (such as a dataset, a concept or a theory). (source: wiktionary)</dcterms:description>
 <rdfs:label xml:lang="en">Analysis</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Assertion  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Assertion">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Statement"/>
+<!--  http://purl.org/onto/skoo#Assertion  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Assertion">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Statement"/>
 <dcterms:description>A declaration that is made emphatically (as if no supporting evidence were necessary). (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Assertion</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Assumption  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Assumption">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Statement"/>
+<!--  http://purl.org/onto/skoo#Assumption  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Assumption">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Statement"/>
 <dcterms:description>A statement that is assumed to be true and from which a conclusion can be drawn. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Assumption</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Axiom  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Axiom">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Statement"/>
+<!--  http://purl.org/onto/skoo#Axiom  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Axiom">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Statement"/>
 <dcterms:description>A proposition that is not susceptible of proof or disproof; its truth is assumed to be self-evident. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Axiom</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#BodyOfInformation  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#BodyOfInformation">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciInformationObject"/>
+<!--  http://purl.org/onto/skoo#BodyOfInformation  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#BodyOfInformation">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciInformationObject"/>
 <rdfs:subClassOf>
 <owl:Restriction>
-<owl:onProperty rdf:resource="http://purl.org/net/skoo#expresses"/>
+<owl:onProperty rdf:resource="http://purl.org/onto/skoo#expresses"/>
 <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
-<owl:onClass rdf:resource="http://purl.org/net/skoo#KnowledgeContent"/>
+<owl:onClass rdf:resource="http://purl.org/onto/skoo#KnowledgeContent"/>
 </owl:Restriction>
 </rdfs:subClassOf>
 <dcterms:description xml:lang="en">A body of information is a collection of information that is managed together as a unit. (source: simplicable.com)</dcterms:description>
 <rdfs:label xml:lang="en">Body of knowledge</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Clause  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Clause">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Sentence"/>
+<!--  http://purl.org/onto/skoo#Clause  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Clause">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Sentence"/>
 <dcterms:description>An expression including a subject and predicate functioning as a part of a complex sentence. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Clause</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Comparison  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Comparison">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciActivity"/>
+<!--  http://purl.org/onto/skoo#Comparison  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Comparison">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciActivity"/>
 <dcterms:description xml:lang="en">The act of examining resemblances. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Comparison</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Condition  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Condition">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Assumption"/>
+<!--  http://purl.org/onto/skoo#Condition  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Condition">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Assumption"/>
 <dcterms:description>An assumption on which rests the validity or effect of something else. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Condition</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Conjecture  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Conjecture">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Hypothesis"/>
+<!--  http://purl.org/onto/skoo#Conjecture  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Conjecture">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Hypothesis"/>
 <dcterms:description>A hypothesis that has been formed by speculating or conjecturing (usually with little hard evidence). (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Conjecture</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Definition  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Definition">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Statement"/>
+<!--  http://purl.org/onto/skoo#Definition  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Definition">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Statement"/>
 <dcterms:description>A concise explanation of the meaning of a word or phrase or symbol. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Definition</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#DiagrammaticObject  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#DiagrammaticObject">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciInformationObject"/>
+<!--  http://purl.org/onto/skoo#DiagrammaticObject  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#DiagrammaticObject">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciInformationObject"/>
 <dcterms:description xml:lang="en">An object shown or represented by diagrams. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Diagrammatic object</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#DomainObject  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#DomainObject">
+<!--  http://purl.org/onto/skoo#DomainObject  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#DomainObject">
 <dcterms:description xml:lang="en">A domain object is an object studied in a scientific domain. For instance, particle physics studies Particles, their Interactions, their Composition, etc. whereas Topology studies Topological Spaces, their Relations, their Transformations, etc.</dcterms:description>
 <rdfs:label xml:lang="en">Domain object</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 <skos:note>A domain object is an object studied in a scientific domain. For instance, particle physics studies Particles, their Interactions, their Composition, etc. whereas Topology studies Topological Spaces, their Relations, their Transformations, etc. Remark. Mathematics does not study Theorems, Definitions, etc. it studies mathematical objects (Numbers, Functions, Algebraic structures, ...) To use SKOO in a specific domain it must be connected to a domain ontology that defines the specific scientific objects of this domain.</skos:note>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Equation  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Equation">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Formula"/>
+<!--  http://purl.org/onto/skoo#Equation  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Equation">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Formula"/>
 <dcterms:description>A mathematical statement that two expressions are equal. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Equation</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Estimation  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Estimation">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciActivity"/>
+<!--  http://purl.org/onto/skoo#Estimation  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Estimation">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciActivity"/>
 <dcterms:description xml:lang="en">A judgment of the qualities of something or somebody, or an approximate calculation of quantity or degree or worth. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Estimation</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Example  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Example">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Statement"/>
+<!--  http://purl.org/onto/skoo#Example  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Example">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Statement"/>
 <dcterms:description>An item of information that is typical of a class or group and that is a representative form or pattern. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Example</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Execution  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Execution">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciActivity"/>
+<!--  http://purl.org/onto/skoo#Execution  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Execution">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciActivity"/>
 <dcterms:description xml:lang="en">The act of accomplishing some aim or executing some order or instruction. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Execution</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Experimentation  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Experimentation">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Investigation"/>
+<!--  http://purl.org/onto/skoo#Experimentation  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Experimentation">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Investigation"/>
 <dcterms:description xml:lang="en">The act of conducting a controlled test or investigation. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Experimentation</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Extraction  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Extraction">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciActivity"/>
+<!--  http://purl.org/onto/skoo#Extraction  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Extraction">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciActivity"/>
 <dcterms:description xml:lang="en">The action of taking out something. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Extraction</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Finding  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Finding">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Statement"/>
+<!--  http://purl.org/onto/skoo#Finding  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Finding">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Statement"/>
 <dcterms:description>Something that is found. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Finding</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#FormalExpression  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#FormalExpression">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciInformationObject"/>
+<!--  http://purl.org/onto/skoo#FormalExpression  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#FormalExpression">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciInformationObject"/>
 <dcterms:description>An expression (sequence of symbols) that belongs to a formally defined language.</dcterms:description>
 <rdfs:label xml:lang="en">Formal expression</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Formula  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Formula">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#FormalExpression"/>
+<!--  http://purl.org/onto/skoo#Formula  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Formula">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#FormalExpression"/>
 <dcterms:description>A group of symbols that make a mathematical statement. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Formula</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Geographical_Object  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Geographical_Object">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#DomainObject"/>
+<!--  http://purl.org/onto/skoo#Geographical_Object  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Geographical_Object">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#DomainObject"/>
 <rdfs:label xml:lang="en">Geographical object</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Grammar  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Grammar">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#LanguageDefinitionObject"/>
+<!--  http://purl.org/onto/skoo#Grammar  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Grammar">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#LanguageDefinitionObject"/>
 <rdfs:subClassOf>
 <owl:Restriction>
 <owl:onProperty rdf:resource="http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#hasPart"/>
-<owl:someValuesFrom rdf:resource="http://purl.org/net/skoo#Phrase"/>
+<owl:someValuesFrom rdf:resource="http://purl.org/onto/skoo#Phrase"/>
 </owl:Restriction>
 </rdfs:subClassOf>
 <dcterms:description>A system of rules and principles for speaking and writing a language (source: wiktionary)</dcterms:description>
 <rdfs:label xml:lang="en">Grammar</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Hypothesis  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Hypothesis">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Statement"/>
+<!--  http://purl.org/onto/skoo#Hypothesis  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Hypothesis">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Statement"/>
 <dcterms:description>A proposal intended to explain certain facts or observations. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Hypothesis</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Investigation  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Investigation">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciActivity"/>
+<!--  http://purl.org/onto/skoo#Investigation  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Investigation">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciActivity"/>
 <dcterms:description xml:lang="en">The work of inquiring into something thoroughly and systematically. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Investigation</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#KnowledgeContent  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#KnowledgeContent">
+<!--  http://purl.org/onto/skoo#KnowledgeContent  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#KnowledgeContent">
 <rdfs:subClassOf>
 <owl:Class>
 <owl:intersectionOf rdf:parseType="Collection">
 <owl:Restriction>
 <owl:onProperty rdf:resource="http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#hasPart"/>
-<owl:someValuesFrom rdf:resource="http://purl.org/net/skoo#SciKnowledgeItem"/>
+<owl:someValuesFrom rdf:resource="http://purl.org/onto/skoo#SciKnowledgeItem"/>
 </owl:Restriction>
 <owl:Restriction>
 <owl:onProperty rdf:resource="http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#hasPart"/>
-<owl:allValuesFrom rdf:resource="http://purl.org/net/skoo#SciKnowledgeItem"/>
+<owl:allValuesFrom rdf:resource="http://purl.org/onto/skoo#SciKnowledgeItem"/>
 </owl:Restriction>
 </owl:intersectionOf>
 </owl:Class>
@@ -304,53 +304,53 @@
 <rdfs:label xml:lang="en">Knowledge content</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#LanguageDefinitionObject  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#LanguageDefinitionObject">
+<!--  http://purl.org/onto/skoo#LanguageDefinitionObject  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#LanguageDefinitionObject">
 <dcterms:description xml:lang="en">An object that serves to define a language, such as a Grammar, Vocabulary, Alphabet. It is not a Language definition however a language definition uses Language definition objects.</dcterms:description>
 <rdfs:comment>An object that serves to define a language</rdfs:comment>
 <rdfs:label xml:lang="en">Language definition object</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Law  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Law">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Statement"/>
+<!--  http://purl.org/onto/skoo#Law  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Law">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Statement"/>
 <dcterms:description>A generalization that describes recurring facts or events in nature. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Law</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#LinguisticObject  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#LinguisticObject">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciInformationObject"/>
+<!--  http://purl.org/onto/skoo#LinguisticObject  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#LinguisticObject">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciInformationObject"/>
 <rdfs:subClassOf>
 <owl:Restriction>
-<owl:onProperty rdf:resource="http://purl.org/net/skoo#expresses"/>
-<owl:someValuesFrom rdf:resource="http://purl.org/net/skoo#SciKnowledgeItem"/>
+<owl:onProperty rdf:resource="http://purl.org/onto/skoo#expresses"/>
+<owl:someValuesFrom rdf:resource="http://purl.org/onto/skoo#SciKnowledgeItem"/>
 </owl:Restriction>
 </rdfs:subClassOf>
 <rdfs:label xml:lang="en">Linguistic object</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Measuring  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Measuring">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciActivity"/>
+<!--  http://purl.org/onto/skoo#Measuring  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Measuring">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciActivity"/>
 <dcterms:description xml:lang="en">The act or process of assigning numbers to phenomena according to a rule. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Measuring</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Method  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Method">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciKnowledgeItem"/>
+<!--  http://purl.org/onto/skoo#Method  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Method">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciKnowledgeItem"/>
 <dcterms:description>A way of doing something, especially a systematic way; implies an orderly logical arrangement. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Method</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Model  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Model">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciKnowledgeItem"/>
+<!--  http://purl.org/onto/skoo#Model  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Model">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciKnowledgeItem"/>
 <rdfs:subClassOf>
 <owl:Restriction>
 <owl:onProperty rdf:resource="http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#hasPart"/>
-<owl:someValuesFrom rdf:resource="http://purl.org/net/skoo#Statement"/>
+<owl:someValuesFrom rdf:resource="http://purl.org/onto/skoo#Statement"/>
 </owl:Restriction>
 </rdfs:subClassOf>
 <dcterms:description>An abstract description of a complex entity or process or system. (source: wordnet)</dcterms:description>
@@ -358,254 +358,254 @@
 <rdfs:label xml:lang="en">Model</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Notation  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Notation">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#LanguageDefinitionObject"/>
+<!--  http://purl.org/onto/skoo#Notation  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Notation">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#LanguageDefinitionObject"/>
 <rdfs:subClassOf>
 <owl:Restriction>
 <owl:onProperty rdf:resource="http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#hasPart"/>
-<owl:someValuesFrom rdf:resource="http://purl.org/net/skoo#Alphabet"/>
+<owl:someValuesFrom rdf:resource="http://purl.org/onto/skoo#Alphabet"/>
 </owl:Restriction>
 </rdfs:subClassOf>
 <rdfs:subClassOf>
 <owl:Restriction>
 <owl:onProperty rdf:resource="http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#hasPart"/>
-<owl:someValuesFrom rdf:resource="http://purl.org/net/skoo#Symbol"/>
+<owl:someValuesFrom rdf:resource="http://purl.org/onto/skoo#Symbol"/>
 </owl:Restriction>
 </rdfs:subClassOf>
 <dcterms:description>A system of characters, symbols, or abbreviated expressions used in an art or science or in mathematics or logic to express technical facts or quantities. (source: wiktionary)</dcterms:description>
 <rdfs:label xml:lang="en">Notation</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Observation  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Observation">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Statement"/>
+<!--  http://purl.org/onto/skoo#Observation  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Observation">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Statement"/>
 <rdfs:subClassOf>
 <owl:Restriction>
-<owl:onProperty rdf:resource="http://purl.org/net/skoo#generatedBy"/>
-<owl:someValuesFrom rdf:resource="http://purl.org/net/skoo#Observing"/>
+<owl:onProperty rdf:resource="http://purl.org/onto/skoo#generatedBy"/>
+<owl:someValuesFrom rdf:resource="http://purl.org/onto/skoo#Observing"/>
 </owl:Restriction>
 </rdfs:subClassOf>
 <dcterms:description xml:lang="en">Result of the act of observing. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Observation</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Observing  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Observing">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciActivity"/>
+<!--  http://purl.org/onto/skoo#Observing  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Observing">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciActivity"/>
 <dcterms:description xml:lang="en">Discover or determine the existence, presence, or fact of. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Observing</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Outcome  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Outcome">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Statement"/>
+<!--  http://purl.org/onto/skoo#Outcome  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Outcome">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Statement"/>
 <dcterms:description>A phenomenon that follows and is caused by some previous phenomenon. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Outcome</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Particle_Physics_Object  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Particle_Physics_Object">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#DomainObject"/>
+<!--  http://purl.org/onto/skoo#Particle_Physics_Object  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Particle_Physics_Object">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#DomainObject"/>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Phrase  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Phrase">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#LinguisticObject"/>
+<!--  http://purl.org/onto/skoo#Phrase  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Phrase">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#LinguisticObject"/>
 <dcterms:description>An expression consisting of one or more words forming a grammatical constituent of a sentence. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Phrase</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Problem  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Problem">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciKnowledgeItem"/>
+<!--  http://purl.org/onto/skoo#Problem  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Problem">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciKnowledgeItem"/>
 <dcterms:description>A state of difficulty that needs to be resolved. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Problem</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Procedure  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Procedure">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Process"/>
+<!--  http://purl.org/onto/skoo#Procedure  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Procedure">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Process"/>
 <dcterms:description xml:lang="en">A series of acts of practical or mechanical nature involved in a particular form of work. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Procedure</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Process  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Process">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciActivity"/>
+<!--  http://purl.org/onto/skoo#Process  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Process">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciActivity"/>
 <dcterms:description xml:lang="en">A particular course of action intended to achieve a result. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Process</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 <skos:note>--gf a process is not an experience maybe an experiment is a process</skos:note>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Proof  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Proof">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Statement"/>
+<!--  http://purl.org/onto/skoo#Proof  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Proof">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Statement"/>
 <rdfs:subClassOf>
 <owl:Restriction>
-<owl:onProperty rdf:resource="http://purl.org/net/skoo#proves"/>
-<owl:someValuesFrom rdf:resource="http://purl.org/net/skoo#Theorem"/>
+<owl:onProperty rdf:resource="http://purl.org/onto/skoo#proves"/>
+<owl:someValuesFrom rdf:resource="http://purl.org/onto/skoo#Theorem"/>
 </owl:Restriction>
 </rdfs:subClassOf>
 <dcterms:description>Any factual evidence or formal series of statements that helps to establish the truth of something. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Proof</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Proving  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Proving">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciActivity"/>
+<!--  http://purl.org/onto/skoo#Proving  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Proving">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciActivity"/>
 <dcterms:description xml:lang="en">Establish the validity of something, as by an example, explanation or experiment or formal proof. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Proving</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Question  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Question">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciKnowledgeItem"/>
+<!--  http://purl.org/onto/skoo#Question  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Question">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciKnowledgeItem"/>
 <dcterms:description>A sentence of inquiry that asks for a reply. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Question</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Remark  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Remark">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Statement"/>
+<!--  http://purl.org/onto/skoo#Remark  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Remark">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Statement"/>
 <dcterms:description>A brief casually expressed thought or opinion. (source: free dictionary)</dcterms:description>
 <rdfs:label xml:lang="en">Remark</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Rule  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Rule">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Statement"/>
+<!--  http://purl.org/onto/skoo#Rule  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Rule">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Statement"/>
 <dcterms:description>A basic generalization that is accepted as true and that can be used as a basis for reasoning or conduct. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Rule</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#SciActivity  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#SciActivity">
+<!--  http://purl.org/onto/skoo#SciActivity  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#SciActivity">
 <rdfs:subClassOf>
 <owl:Restriction>
-<owl:onProperty rdf:resource="http://purl.org/net/skoo#generates"/>
-<owl:someValuesFrom rdf:resource="http://purl.org/net/skoo#SciKnowledgeItem"/>
+<owl:onProperty rdf:resource="http://purl.org/onto/skoo#generates"/>
+<owl:someValuesFrom rdf:resource="http://purl.org/onto/skoo#SciKnowledgeItem"/>
 </owl:Restriction>
 </rdfs:subClassOf>
 <dcterms:description xml:lang="en">Activity whose purpose is the accumulation of knowledge.</dcterms:description>
 <rdfs:label xml:lang="en">Scientific activity</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#SciInformationObject  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#SciInformationObject">
+<!--  http://purl.org/onto/skoo#SciInformationObject  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#SciInformationObject">
 <rdfs:subClassOf>
 <owl:Restriction>
-<owl:onProperty rdf:resource="http://purl.org/net/skoo#expresses"/>
-<owl:someValuesFrom rdf:resource="http://purl.org/net/skoo#SciKnowledgeItem"/>
+<owl:onProperty rdf:resource="http://purl.org/onto/skoo#expresses"/>
+<owl:someValuesFrom rdf:resource="http://purl.org/onto/skoo#SciKnowledgeItem"/>
 </owl:Restriction>
 </rdfs:subClassOf>
 <rdfs:label xml:lang="en">Scientific information object</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#SciKnowledgeItem  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#SciKnowledgeItem">
+<!--  http://purl.org/onto/skoo#SciKnowledgeItem  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#SciKnowledgeItem">
 <rdfs:subClassOf>
 <owl:Restriction>
-<owl:onProperty rdf:resource="http://purl.org/net/skoo#about"/>
-<owl:someValuesFrom rdf:resource="http://purl.org/net/skoo#DomainObject"/>
+<owl:onProperty rdf:resource="http://purl.org/onto/skoo#about"/>
+<owl:someValuesFrom rdf:resource="http://purl.org/onto/skoo#DomainObject"/>
 </owl:Restriction>
 </rdfs:subClassOf>
 <rdfs:subClassOf>
 <owl:Restriction>
-<owl:onProperty rdf:resource="http://purl.org/net/skoo#expressedBy"/>
-<owl:someValuesFrom rdf:resource="http://purl.org/net/skoo#SciInformationObject"/>
+<owl:onProperty rdf:resource="http://purl.org/onto/skoo#expressedBy"/>
+<owl:someValuesFrom rdf:resource="http://purl.org/onto/skoo#SciInformationObject"/>
 </owl:Restriction>
 </rdfs:subClassOf>
 <rdfs:comment>--gf A subclass (or equivalent class) of dolce:information-object Information objects are social objects. They are realized by some entity. They are ordered (expressed according to) by some system for information encoding. Consequently, they are dependent from an encoding as well as from a concrete realization.They can express a description (the ontological equivalent of a meaning/conceptualization), can be about any entity, and can be interpreted by an agent.From a communication perspective, an information object can play the role of "message". From a semiotic perspective, it playes the role of "expression". --- Knowledge items are information objects that are used scientific fields to convey scientific information</rdfs:comment>
 <rdfs:label xml:lang="en">Scientific knowledge item</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Sentence  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Sentence">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Phrase"/>
+<!--  http://purl.org/onto/skoo#Sentence  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Sentence">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Phrase"/>
 <dcterms:description>A string of words satisfying the grammatical rules of a language. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Sentence</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Sociological_Object  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Sociological_Object">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#DomainObject"/>
+<!--  http://purl.org/onto/skoo#Sociological_Object  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Sociological_Object">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#DomainObject"/>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Statement  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Statement">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciKnowledgeItem"/>
+<!--  http://purl.org/onto/skoo#Statement  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Statement">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciKnowledgeItem"/>
 <dcterms:description>The act of affirming or asserting or stating something. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Statement</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Study  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Study">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Investigation"/>
+<!--  http://purl.org/onto/skoo#Study  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Study">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Investigation"/>
 <dcterms:description xml:lang="en">The result of the acquisition of knowledge on a subject with the intention of applying it. (source: wiktionary)</dcterms:description>
 <rdfs:label xml:lang="en">Study</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Survey  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Survey">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Investigation"/>
+<!--  http://purl.org/onto/skoo#Survey  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Survey">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Investigation"/>
 <dcterms:description xml:lang="en">A detailed critical inspection. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Survey</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Symbol  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Symbol">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#LanguageDefinitionObject"/>
+<!--  http://purl.org/onto/skoo#Symbol  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Symbol">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#LanguageDefinitionObject"/>
 <dcterms:description>an arbitrary sign (written or printed) that has acquired a conventional significance. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Symbol</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#System  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#System">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciKnowledgeItem"/>
+<!--  http://purl.org/onto/skoo#System  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#System">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciKnowledgeItem"/>
 <dcterms:description>A group of independent but interrelated elements comprising a unified whole. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">System</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Technique  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Technique">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Method"/>
+<!--  http://purl.org/onto/skoo#Technique  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Technique">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Method"/>
 <dcterms:description>A systematic method applied to some particular task. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Technique</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Term  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Term">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#LinguisticObject"/>
+<!--  http://purl.org/onto/skoo#Term  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Term">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#LinguisticObject"/>
 <rdfs:subClassOf>
 <owl:Restriction>
 <owl:onProperty rdf:resource="http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#hasPart"/>
-<owl:someValuesFrom rdf:resource="http://purl.org/net/skoo#Alphabet"/>
+<owl:someValuesFrom rdf:resource="http://purl.org/onto/skoo#Alphabet"/>
 </owl:Restriction>
 </rdfs:subClassOf>
 <dcterms:description>A word or expression used in relation to a particular subject, often to describe something official or technical. (source: Cambridge dictionary)</dcterms:description>
 <rdfs:label xml:lang="en">Term</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Testing  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Testing">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciActivity"/>
+<!--  http://purl.org/onto/skoo#Testing  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Testing">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciActivity"/>
 <dcterms:description xml:lang="en">The act of subjecting to experimental test in order to determine how well something works. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Testing</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Theorem  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Theorem">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#Statement"/>
+<!--  http://purl.org/onto/skoo#Theorem  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Theorem">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#Statement"/>
 <dcterms:description>A proposition deducible from basic postulates. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Theorem</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Theory  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Theory">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#SciKnowledgeItem"/>
+<!--  http://purl.org/onto/skoo#Theory  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Theory">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#SciKnowledgeItem"/>
 <rdfs:subClassOf>
 <owl:Restriction>
 <owl:onProperty rdf:resource="http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#hasPart"/>
-<owl:someValuesFrom rdf:resource="http://purl.org/net/skoo#Statement"/>
+<owl:someValuesFrom rdf:resource="http://purl.org/onto/skoo#Statement"/>
 </owl:Restriction>
 </rdfs:subClassOf>
 <dcterms:description>A well-substantiated explanation of some aspect of the natural world; an organized system of accepted knowledge that applies in a variety of circumstances to explain a specific set of phenomena. (source: wordnet)</dcterms:description>
@@ -613,47 +613,47 @@
 <ns:term_status xml:lang="en">stable</ns:term_status>
 <skos:note>--gf what is it ? A theory expressed in natural language ?</skos:note>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Vocabulary  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Vocabulary">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#LanguageDefinitionObject"/>
+<!--  http://purl.org/onto/skoo#Vocabulary  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Vocabulary">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#LanguageDefinitionObject"/>
 <rdfs:subClassOf>
 <owl:Restriction>
 <owl:onProperty rdf:resource="http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#hasPart"/>
-<owl:someValuesFrom rdf:resource="http://purl.org/net/skoo#Notation"/>
+<owl:someValuesFrom rdf:resource="http://purl.org/onto/skoo#Notation"/>
 </owl:Restriction>
 </rdfs:subClassOf>
 <rdfs:subClassOf>
 <owl:Restriction>
 <owl:onProperty rdf:resource="http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#hasPart"/>
-<owl:someValuesFrom rdf:resource="http://purl.org/net/skoo#Term"/>
+<owl:someValuesFrom rdf:resource="http://purl.org/onto/skoo#Term"/>
 </owl:Restriction>
 </rdfs:subClassOf>
 <rdfs:subClassOf>
 <owl:Restriction>
 <owl:onProperty rdf:resource="http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#hasPart"/>
-<owl:someValuesFrom rdf:resource="http://purl.org/net/skoo#Word"/>
+<owl:someValuesFrom rdf:resource="http://purl.org/onto/skoo#Word"/>
 </owl:Restriction>
 </rdfs:subClassOf>
 <dcterms:description>The stock of words used in a particular field. (source: wiktionary)</dcterms:description>
 <rdfs:label xml:lang="en">Vocabulary</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#Word  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#Word">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#LinguisticObject"/>
+<!--  http://purl.org/onto/skoo#Word  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#Word">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#LinguisticObject"/>
 <rdfs:subClassOf>
 <owl:Restriction>
 <owl:onProperty rdf:resource="http://www.w3.org/2001/sw/BestPractices/OEP/SimplePartWhole/part.owl#hasPart"/>
-<owl:someValuesFrom rdf:resource="http://purl.org/net/skoo#Alphabet"/>
+<owl:someValuesFrom rdf:resource="http://purl.org/onto/skoo#Alphabet"/>
 </owl:Restriction>
 </rdfs:subClassOf>
 <dcterms:description>A unit of language that native speakers can identify. (source: wordnet)</dcterms:description>
 <rdfs:label xml:lang="en">Word</rdfs:label>
 <ns:term_status xml:lang="en">stable</ns:term_status>
 </owl:Class>
-<!--  http://purl.org/net/skoo#other_Domain_Object_Examples  -->
-<owl:Class rdf:about="http://purl.org/net/skoo#other_Domain_Object_Examples">
-<rdfs:subClassOf rdf:resource="http://purl.org/net/skoo#DomainObject"/>
+<!--  http://purl.org/onto/skoo#other_Domain_Object_Examples  -->
+<owl:Class rdf:about="http://purl.org/onto/skoo#other_Domain_Object_Examples">
+<rdfs:subClassOf rdf:resource="http://purl.org/onto/skoo#DomainObject"/>
 </owl:Class>
 <rdf:Description>
 </rdf:Description>
